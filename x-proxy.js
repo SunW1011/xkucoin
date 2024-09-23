@@ -220,7 +220,7 @@ async function main() {
             }
 
             await Promise.allSettled(workerPromises);
-            console.log(`==========> Hoàn thành xử lý luồng ${remainingAccounts}. Chuyển sang nhóm tiếp theo... <==========`.red);
+            console.log(`===============> Hoàn thành xử lý luồng ${remainingAccounts}. Chuyển sang nhóm tiếp theo... <===============`.red);
         }
 
         console.log('Đã xử lý xong tất cả. Nghỉ 10 phút...');
